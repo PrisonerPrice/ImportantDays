@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your task"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginHorizontal="@dimen/middle_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginHorizontal="@dimen/middle_margin">
+
+        <EditText
+            android:id="@+id/editTextMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="MM"/>
+
+        <EditText
+            android:id="@+id/editTextDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="DD"/>
+
+        <EditText
+            android:id="@+id/editTextYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="YYYY"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextRemainderDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your remainder days"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginHorizontal="@dimen/middle_margin"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginHorizontal="@dimen/middle_margin"/>
+
+</LinearLayout>
